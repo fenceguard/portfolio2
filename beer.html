@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>멋있는 맥주!</title>
+    <link rel="stylesheet" href="beer.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="upperheader">
+                <div class="spacer"></div>
+                <div class="logo">멋있는 맥주</div>
+                <div class="search">검색</div>
+                <div class="cart">장바구니</div>
+                <div class="spacer"></div>
+            </div>
+            <div class="lowerheader">
+                <button class="menu-btn">BARREL SERIES</button>
+                <button class="menu-btn">SUPPORTERS</button>
+                <button class="menu-btn">KOOL BEERS</button>
+                <button class="menu-btn">SHOP</button>
+                <button class="menu-btn">BREWERY</button>
+            </div>
+        </header>
+        <main>
+            <div class="carosel">
+                <div class="carosel-track">
+                <div class="carosel-slide active">
+                    <picture class="slide-banner">
+                        <source media="(min-width: 768px)" srcset="/images/beer/섹션배너1.png">
+                        <img src="/images/beer/모바일섹션배너1.png" alt="Slide 1 배경">
+                    </picture>
+                    <div class="slide-content">
+                        <img class="slide-logo" src="/images/beer/섹션로고1.png" alt="로고" style="width: 180px;">
+                        <div class="slide-bottom">
+                            <img class="slide-image" src="/images/beer/맥주사진1.png" alt="맥주 이미지">
+                            <div class="slide-text">
+                                <p>제주라거는 맥주의 기본 4대 원료를 사용하는</p> <br/>
+                                <p>독일 맥주 순수령 원칙을 지킨</p> <br/>
+                                <p>제주 하얀 파도의 시원함과</p> <br>
+                                <p>부드러움을 닮은 올 몰트 라거입니다.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carosel-slide">
+                    <picture class="slide-banner">
+                        <source media="(min-width: 768px)" srcset="/images/beer/섹션배너2.png">
+                        <img src="/images/beer/모바일섹션배너2.png" alt="Slide 2 배경">
+                    </picture>
+                    <div class="slide-content">
+                        <img class="slide-logo" src="/images/beer/섹션로고2.png" alt="로고">
+                        <div class="slide-bottom">
+                            <img class="slide-image" src="/images/beer/맥주사진2.png" alt="맥주 이미지">
+                            <div class="slide-text">
+                                <p>제주 위트 에일은 제주 감귤 껍질의 상큼함과 섬세한 꽃 향,</p> <br/>
+                                <p>입 안 가득 부드럽게 퍼지는 시트러스향이 만나</p> <br/>
+                                <p>산뜻한 끝 맛을 선사하는 밀맥주입니다.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carosel-slide">
+                    <picture class="slide-banner">
+                        <source media="(min-width: 768px)" srcset="/images/beer/섹션배너3.png">
+                        <img src="/images/beer/모바일섹션배너3.png" alt="Slide 3 배경">
+                    </picture>
+                    <div class="slide-content">
+                        <img class="slide-logo" src="/images/beer/섹션로고3.png" alt="로고">
+                        <div class="slide-bottom">
+                            <img class="slide-image" src="/images/beer/맥주사진3.png" alt="맥주 이미지">
+                            <div class="slide-text">
+                                <p>제주 펠롱 에일은 반딧불이 반짝이는 곶자왈에서 영감을 받아 탄생하였습니다.</p> <br/>
+                                <p>다양하고 개성있는 홉들을 블렌딩하여</p> <br/>
+                                <p>시트러스 아로마와 진한 맥아의 맛이 어우러져</p> <br>
+                                <p>풍부한 풍미를 선사하는 페일에일 맥주입니다.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carosel-slide">
+                    <picture class="slide-banner">
+                        <source media="(min-width: 768px)" srcset="/images/beer/섹션배너4.png">
+                        <img src="/images/beer/모바일섹션배너4.png" alt="Slide 4 배경">
+                    </picture>
+                    <div class="slide-content">
+                        <img class="slide-logo" src="/images/beer/섹션로고4.png" alt="로고">
+                        <div class="slide-bottom">
+                            <img class="slide-image" src="/images/beer/맥주사진4.png" alt="맥주 이미지">
+                            <div class="slide-text">
+                                <p>제주 거멍 에일은제주의 여름밤을 떠올리게 하는 짙은 빛깔 속에서,</p> <br/>
+                                <p>제주 흑보리와 초콜릿 밀로 완성된 은은한 달큰함과</p> <br/>
+                                <p>경쾌한 풍미를 자아내는 흑맥주입니다.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                <div class="carosel-dots">
+                    <span class="dot active"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+                <button class="carosel-toggle" aria-label="일시정지">❚❚</button>
+            </div>
+        </main>
+        <footer>
+            <div class="sponsor"><img src="/images/beer/롤링배너1.jpg" alt="Sponsor 1"></div>
+            <div class="sponsor"><img src="/images/beer/롤링배너2.jpg" alt="Sponsor 2"></div>
+            <div class="sponsor"><img src="/images/beer/롤링배너3.jpg" alt="Sponsor 3"></div>
+            <div class="sponsor"><img src="/images/beer/롤링배너4.jpg" alt="Sponsor 4"></div>
+            <div class="sponsor"><img src="/images/beer/롤링배너5.jpg" alt="Sponsor 5"></div>
+            <div class="sponsor"><img src="/images/beer/롤링배너6.jpg" alt="Sponsor 6"></div>
+        </footer>
+    </div>
+    <script src="beer.js"></script>
+</body>
+</html>
